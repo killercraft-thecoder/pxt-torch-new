@@ -1,0 +1,56 @@
+{
+    "name": "Torch-new",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Promise<somehting>": "github:killercraft-thecoder/promisesomehting#master"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tensor.ts",
+        "linear.ts",
+        "cnn.ts",
+        "adam.ts",
+        "activactions.ts",
+        "softmax.ts",
+        "sequtial.ts",
+        "embedding.ts",
+        "avgpoolnd.ts",
+        "flatten.ts",
+        "layernorm.ts",
+        "dropout.ts",
+        "crossentropyloss.ts",
+        "positalencoding.ts",
+        "maxpoolnd.ts",
+        "convtransposend.ts",
+        "rnn.ts",
+        "gru.ts",
+        "lstm.ts",
+        "residual.ts",
+        "feedforward.ts",
+        "multiheadattention.ts",
+        "tranformerencoder.ts",
+        "tranformerdecoder.ts",
+        "tranformermodel.ts",
+        "fasttensor.ts",
+        "FastLinear.ts",
+        "fastsequtial.ts",
+        "FastActivaons.ts",
+        "tofast.ts",
+        "fromfast.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.7",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
